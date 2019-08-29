@@ -1,0 +1,11 @@
+﻿@model ApiModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <p>
+        Player Search: <input type="text" name="player" />
+        <input type="submit" value="Search" />
+    </p>
+</form>
